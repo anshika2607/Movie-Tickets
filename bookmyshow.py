@@ -115,7 +115,7 @@ def main():
 #return back to main(). The execution thread will then "sleep/wait" for
 #300 seconds/5 minutes, before re-running the list of functions again.
 #When we re-run them, the webpage url is fetched again, so it will account for
-#any changes in the url's contents.
+#any changes in the url's contents
     while True:
         fetch_html()
         time.sleep(300)
